@@ -7,6 +7,8 @@ lefty [IP] [MAC]
 
 For Example: lefty 1.1.1.1 BBBB.CCCC.DDDD
 
+The IP specified should be the furthest upstream or downstream layer 2 end point that the MAC address would appear on. If unsure, going upstream is a safer bet (going to an aggregation switch, for example)
+
 #Notes
 currently works on Cisco Devices
 
